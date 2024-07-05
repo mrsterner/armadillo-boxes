@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "armadillo_boxes:block/armadillo_box_east"
+    },
+    "facing=west": {
+      "model": "armadillo_boxes:block/armadillo_box_west"
+    },
+    "facing=north": {
+      "model": "armadillo_boxes:block/armadillo_box_north"
+    },
+    "facing=south": {
+      "model": "armadillo_boxes:block/armadillo_box_south"
+    },
+    "facing=up": {
+      "model": "armadillo_boxes:block/armadillo_box_up"
+    },
+    "facing=down": {
+      "model": "armadillo_boxes:block/armadillo_box_down"
+    }
+  }
+}

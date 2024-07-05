@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:chest"
+    },
+    "-": {
+      "item": "minecraft:armadillo_scute"
+    }
+  },
+  "pattern": [
+    "-",
+    "#",
+    "-"
+  ],
+  "result": {
+    "count": 1,
+    "id": "armadillo_boxes:armadillo_box"
+  }
+}

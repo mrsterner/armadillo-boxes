@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${version}",
+  "name": "Armadillo Boxes",
+  "description": "Shulker boxes but armadillo",
+  "authors": [
+    "MrSterner"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "Insert License Here",
+  "icon": "assets/armadillo_boxes/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "dev.sterner.armadillo_boxes.fabric.ArmadilloBoxesFabric"
+      }
+    ]
+  },
+  "mixins": [
+    "armadillo_boxes.mixins.json",
+    "armadillo_boxes-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=${minecraft_version}",
+    "architectury": ">=${architectury_version}",
+    "fabric-language-kotlin": ">=${fabric_kotlin_version}"
+  }
+}
